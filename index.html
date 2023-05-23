@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">HOME</a>
+      <a href="./about.html">ABOUT</a>
+    </nav>
+
+    <h1>Inventory Management</h1>
+    <form>
+      <label for="name">Item name:</label>
+      <input type="text" id="name" name="name" style="width: 30vw" />
+      <label for="description">Description:</label>
+      <input type="text" id="description" name="description" style="width: 30vw" />
+      <label for="price">Price:</label>
+      <input type="text" id="price" name="price" style="width: 30vw" />
+      <label for="url">Image URL:</label>
+      <input type="text" id="url" name="url" style="width: 30vw" />
+      <button id="submit" type="button">Add Item</button>
+      <button type="reset">Clear</button>
+    </form>
+    <button id="deleteAll">Delete All</button>
+    <ul id="items"></ul>
+
+    <script src="main.js"></script>
+  </body>
+</html>
